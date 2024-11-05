@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.overflow-section {
+    background: rgba(29, 26, 26, 1);
+    overflow: hidden;
+}
+
+.para {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    opacity: 70%;
+}
+
+.box-1 {
+    background: rgba(12, 11, 11, 1);
+    width: 660px;
+    height: 92px;
+    border-radius: 46px;
+    margin-top: 20px;
+}
+
+.Cras {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 107px;
+    padding-top: 13px;
+}
+
+.card-overflow {
+    padding-top: 122px;
+    padding-bottom: 121px;
+}
+
+.overflow {
+    padding-top: 110px;
+    padding-bottom: 66px;
+}
+
+.dolor {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    opacity: 70%;
+    padding-left: 107px;
+}
+
+.svg-1 {
+    position: absolute;
+    left: 3%;
+    top: 45%;
+}
+
+.svg-2 {
+    position: absolute;
+    left: 3%;
+    top: 59.5%;
+}
+
+.svg-3 {
+    position: absolute;
+    left: 3%;
+    top: 74%;
+}
+@media(min-width:576px){
+    .col-sm-6{
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mb-sm-0{
+        margin-bottom: 0px;
+    }
+}
+@media(min-width:768px){
+    .col-md-5{
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .mb-md-0{
+        margin-bottom: 0px;
+    }
+}
