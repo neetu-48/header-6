@@ -1,46 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-    list-style-type: none;
-}
 
-.container {
-    max-width: 1140x;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-left: auto;
-}
 
-.min-vh-100 {
-    min-height: 100vh;
-}
-
-.w-100 {
-    width: 100%;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.align-items-center {
-    align-items: center;
-}
-
-.justify-content-center {
-    justify-content: center;
-}
-
-.justify-content-between {
-    justify-content: space-between;
-}
-
-.flex-grow-1 {
+.flex-grow {
     flex-grow: 1;
 }
 
@@ -48,13 +10,6 @@
     flex-direction: column;
 }
 
-.text-center {
-    text-align: center;
-}
-
-.text-left {
-    text-align: left;
-}
 
 .header-6 {
     background-image: url(../image/png/beautiful.png);
@@ -65,7 +20,15 @@
     padding: 10px;
 }
 
-
+.text {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none !important;
+}
 
 .sign-btn {
     background: rgba(37, 218, 197, 1);
@@ -110,32 +73,7 @@
     justify-content: center;
 }
 
-.topnav {
-    position: relative;
-    overflow: hidden;
-}
-
-.topnav a {
-    float: left;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: "DM Sans", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    color: rgba(255, 255, 255, 1);
-
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-}
-
-.topnav-centered li a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.logo {
     font-family: "DM Sans", sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -143,15 +81,7 @@
     letter-spacing: -0.2926828861236572px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-
-}
-
-.topnav-right {
-    float: right;
-}
-
-.topnav-left {
-    float: left;
+    text-decoration: none !important;
 }
 
 
